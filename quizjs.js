@@ -689,7 +689,7 @@ download.download = name1; // Replace with the desired file name
             // Programmatically click the link to trigger the download
             
 download.click();
-}, 1000);
+}, 2000);
 
 }
 
