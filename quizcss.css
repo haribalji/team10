@@ -289,7 +289,9 @@ tab-size: 4;
 
 
  @media only screen and (max-width: 768px) {
-    
+    .questions{
+        font-size: 14px;
+    }
     .container{
         background-color:#9333ea;
         display: flex;
