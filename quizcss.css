@@ -1,0 +1,290 @@
+
+
+.bod{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:#111827;
+    height:100vh;
+    width:100%;
+}
+
+.name{
+    /* margin-top: 2%; */
+    background-color: rgba(18, 22, 21, 0.057);
+    width:400px;
+    height:400px;
+    background-color: aliceblue;
+    margin-bottom:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element1{
+        color:white;
+        font-size: 3px;
+}
+#homeh14{
+    color:#9333ea;
+}
+.container{
+    background-color:#9333ea;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:400px;
+    height:400px;
+}
+.main{
+    height:100%;
+    width:100%;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+    
+
+
+}
+.answer{
+    height: 80%;
+    width:100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* css of the option and next buttton */
+.option{
+    width:60%;
+    left:20%;
+    right:20%;
+    height:45px;
+    border-radius: 30px;
+    cursor: pointer;
+    border:0;
+
+}
+/* size of the element */
+.font{
+    font-size: 30px;
+}
+#homeh14{
+    display:none;
+}
+.option:hover:not([disabled]){
+    /* the hover effect will work when the button is not disabled */
+    /* border:.5px solid white; */
+    box-shadow: 30px 3px 4px 30;
+    opacity: 0.5;
+
+}
+/* when the button is disabled  then cursor should not work */
+.option:disabled{
+    cursor:no-drop;
+}
+#Next:hover{
+    /* border:.5px solid white; */
+    box-shadow: 30px 3px 4px 30;
+    opacity: 0.5;
+
+}
+.quit:hover{
+    /* border:.5px solid white; */
+    box-shadow: 30px 3px 4px 30;
+    opacity: 0.5;
+
+}
+#Next{
+    height:30px;
+    width:90px;
+    left:150px;
+    right:150px;
+    border-radius: 30px;
+    cursor: pointer;
+    border:0;
+    /* as currently the button will be none so it will be not visible to anyone  
+    when the user clicks any button that it will be visible
+     */
+     /* display: none; */
+}
+/* quit button */
+
+.end{
+    height:30px;
+    width:300px;
+    display:flex;
+
+    /* right: 30px; */
+    justify-content: space-evenly;
+}
+.he{
+    height:100px;
+    width:100px;
+}
+.quit{
+    /* height: 100%;
+    width:80px; */
+    /* left:20px; */
+    /* right:30px; */
+    background-color:#01d293;
+    border-radius: 30px;
+    cursor: pointer;
+    border:0;
+    height:30px;
+    width:90px;
+    left:150px;
+    right:150px;
+    border-radius: 30px;
+    cursor: pointer;
+    border:0;
+}
+
+/* correct and wrong colour */
+
+.correctcolor{
+    background-color: #9aeabc;
+}
+.incorrectcolor{
+    background-color:#ff939e;
+}
+#element{
+    color:#01d293;;
+}
+#homeh14{
+    background-color: #111827;
+    color:#01d293;
+    margin-top:40px;
+    font-size:1.5rem;
+    font-weight:600;
+    font-family :poppins, sans-serif;
+}
+.j{
+    height:200px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+/* .l{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    width:100%;
+    background-color: aliceblue;
+}  */
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100%;
+    width:100%;
+    background-color:#9333ea;
+}
+form button{
+    font-size: 16px;;
+    border:20px auto 0;
+    border-radius: 30px;
+    padding: 15px;
+    width:150px;
+    background-color:#01d293;;
+    cursor: pointer;
+    right:3px;
+    border: 0;
+
+}
+form input, form textarea{
+    /* group selector is used */
+    border: 0;
+    margin:10px 0;
+    padding: 20px;
+   outline:none;
+   /* background-color: #f5f5f5; */
+   font-size: 15px;
+   border-radius: 10px;
+
+
+
+}
+.detail{
+    color:black;
+    font-weight:bold;
+    height:50px;
+    width: 300px; 
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    outline:none;
+    /* background-color:#f5f5f5; */
+        background-color:azure;
+
+    /* font-size: 70px; */
+}
+
+
+
+
+/* certificate box */
+.special{
+    background-color:#01d293;
+    /* height:30%;
+    width:100%; */
+
+}
+
+
+
+
+
+
+
+
+
+ /* timer css */
+ .timer{
+    height: 65px;
+    width:200px;
+    background-color:deepskyblue;
+    font-size: 2rem;
+    margin-bottom: 3%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .time{
+ 
+
+    text-align: center;
+ }
+
+ /* qutoe */
+ .qto{
+    /* color: #01d293;
+  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-variant: normal;
+    font-style: normal; */
+    margin-top:20px;
+    font-size: 1.5rem;
+    /* color:rgb(128, 141, 173);
+     */
+     color:rgb(250, 192, 83);
+
+    margin: 0;
+    font-family: Quicksand, sans-serif !important;
+    font-feature-settings:normal;
+/* font-size: 14.4px; */
+font-variation-settings :normal;
+font-weight :600;
+
+line-height :30px;
+tab-size: 4;
+ }
+
+
+
