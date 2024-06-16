@@ -288,3 +288,40 @@ tab-size: 4;
 
 
 
+ @media only screen and (max-width: 768px) {
+    
+    .container{
+        background-color:#9333ea;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        width:330px;
+        height:400px;
+    }
+    .qto{
+        /* color: #01d293;
+      
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+        font-variant: normal;
+        font-style: normal; */
+        margin-top:20px;
+        font-size: 1rem;
+        /* color:rgb(128, 141, 173);
+         */
+         color:rgb(250, 192, 83);
+    
+        margin: 0;
+        font-family: Quicksand, sans-serif !important;
+        font-feature-settings:normal;
+    /* font-size: 14.4px; */
+    font-variation-settings :normal;
+    font-weight :600;
+    
+    line-height :20px;
+    tab-size: 4;
+     }
+  }
+
+
+
