@@ -413,13 +413,13 @@ function selectanswer(e){
                     if(corrects){
                         // when the answer is correct it will  increase the point
                         score++;
-                         var audio=new Audio("./sound/green copy.mp3");
+                         var audio=new Audio("./green copy.mp3");
                                      audio.play();
                          selectedbutton.classList.add("correctcolor");
 
                     }
                     else{
-                        var audio=new Audio("./sound/wrong.mp3");
+                        var audio=new Audio("./wrong.mp3");
                         audio.play();
                         selectedbutton.classList.add("incorrectcolor");
                         if(currentquestionindex===questions[0].length-1) {
