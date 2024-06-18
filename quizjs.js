@@ -465,7 +465,7 @@ function details(){
 
     // Optionally, set attributes for the input element
     input1.type = "text";
-    input1.placeholder = "Enter your name eg:Anbu";
+    input1.placeholder = "Enter your name";
     input2.placeholder = "Enter your Dept-name eg:cse";
 
     // Get the container where you want to add the input element
