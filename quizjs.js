@@ -1,33 +1,5 @@
-// const s=document.getElementById('main');
-// s.style.display="none";
-// subbutton=document.getElementById("btn");
-// function sub(){
-    //  console.log("haro");
-    //  const w=document.getElementById('m2');
-    //     w.style.display="none";
-    // //  const s=document.getElementById('main');
-    //     s.style.display="block";
-         
-// }
-// var type=new Typed("#auto-type",{
-//     strings:["A Student" ," And   Front-End Developer","Youtuber"],
-//     typeSpeed:100,
-//     backSpeed:150,
-//     loop:true
-// });
 
-
-// var f=document.querySelector(".su");
-//  var mail=document.querySelector(".mail");
-//  var nama=document.getElementById("name");
-//  var n;
-//  var myvalue;
-//  function a(){
-//     n=nama.value;
-//     myvalue=mail.value;
-//     console.log("ok hari");
-//     // console.log(e);
-// }
+    
 var thought=["The future belongs to those who believe in the beauty of their dreams.","The only way to do great work is to love what you do.","The harder you work for something, the greater you'll feel when you achieve it.","Success doesn't just find you. You have to go out and get it.","Don't watch the clock; do what it does. Keep going.","Every setback is a setup for a comeback. Keep pushing forward, because your breakthrough may be just around the corner."
     ,"Great things never come from comfort zones.","Push yourself, because no one else is going to do it for you.","If you don't sacrifice for what you want, what you want becomes the sacrifice "]
 
@@ -289,7 +261,7 @@ System.out.println(a > b ? a : b);`,
 {
     question:`Which of the following will correctly create a list of integers from 1 to 5?<br>
 `,
-    answer:[{text:"list1 = [1, 2, 3, 4, 5]",correct: false},
+    answer:[{text:"list1 = (1, 2, 3, 4, 5)",correct: false},
     {text:"list1 = list(range(1, 6))",correct: true},
     {text:"list1 = list(range(5))",correct: false},
     {text:"list1 = [1, 2, 3, 4, 5, 6]",correct: false}
